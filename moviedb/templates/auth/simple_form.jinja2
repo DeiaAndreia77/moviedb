@@ -4,8 +4,3 @@
 {% block content %}
     {{ render_form(form, novalidate=True) }}
 {% endblock %}
-{% block footer %}
-    <div class="text-center">
-        Já tem uma conta? <a href="{{ url_for('auth.login') }}" class="text-dark">Faça o login!</a>
-    </div>
-{% endblock %}
